@@ -1,0 +1,28 @@
+/* universal */
+html,
+body {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+/* imges */
+img {
+  object-fit: cover;
+}
+
+/* footer */
+footer {
+  padding: 20px;
+}
+
+footer small {
+  float: right;
+}
+
+footer a {
+  color: gray;
+}
+
+footer a:hover {
+  color: black;
+}
