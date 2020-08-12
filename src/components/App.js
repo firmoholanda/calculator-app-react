@@ -1,6 +1,6 @@
 import React from 'react';
 
-import MyJumbotron from './MyJumbotron';
+import MyJumbotron from './Jumbotron';
 import Footer from './Footer';
 
 function App() {
