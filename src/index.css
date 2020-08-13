@@ -10,6 +10,39 @@ img {
   object-fit: cover;
 }
 
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: 50px auto;
+}
+
+.display {
+  background-color: gray;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  opacity: 0.9;
+}
+
+.button-panel {
+  opacity: 0.9;
+}
+
+.row {
+  height: 100px;
+}
+
+button {
+  border: 1px solid gray;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  height: 100%;
+  width: auto;
+}
+
 /* footer */
 footer {
   padding: 20px;
