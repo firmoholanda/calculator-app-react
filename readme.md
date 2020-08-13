@@ -28,9 +28,9 @@ node.js, react, react-dom, react-create-app, npm, css, es6, webpack and git was 
 this project can be found in https://github.com/firmoholanda/calculator-app-react
 
 
-### ✨ [live version]()
+### ✨ [live version](https://calculator-react-firmoholanda.herokuapp.com/)
 
-<a href="" target="_blank">
+<a href="https://calculator-react-firmoholanda.herokuapp.com/" target="_blank">
     <img alt="app image" src=""/>
 </a>
 
