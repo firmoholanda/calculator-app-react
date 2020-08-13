@@ -10,6 +10,44 @@ img {
   object-fit: cover;
 }
 
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: 50px auto;
+}
+
+.display {
+  background-color: gray;
+  height: 100px;
+  color: white;
+  font-size: 65px;
+  opacity: 0.9;
+  text-align: right;
+  padding-right: 3rem;
+}
+
+.button-panel {
+  opacity: 0.9;
+}
+
+.row {
+  height: 100px;
+  margin: auto;
+}
+
+button {
+  border: 1px solid gray;
+  color: black;
+  font-size: 30px;
+  height: 100%;
+  width: auto;
+}
+
+button:hover {
+  filter: brightness(90%);
+}
+
 /* footer */
 footer {
   padding: 20px;
@@ -21,6 +59,7 @@ footer small {
 
 footer a {
   color: gray;
+  padding-left: 0.7em;
 }
 
 footer a:hover {
