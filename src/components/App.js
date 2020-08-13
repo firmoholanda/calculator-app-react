@@ -2,7 +2,7 @@ import React from 'react';
 
 import Jumbotron from './Jumbotron';
 import Display from './Display';
-/* import ButtonPanel from './ButtonPanel'; */
+import ButtonPanel from './ButtonPanel';
 import Footer from './Footer';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Jumbotron />
       <Display />
-      {/* <ButtonPanel /> */}
+      <ButtonPanel />
       <Footer />
     </div>
   );
