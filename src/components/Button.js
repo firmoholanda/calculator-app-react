@@ -13,14 +13,22 @@ const Button = ({
   };
   
   return (
-    <button type="button">
+    <button type="button" style={style}>
       {name}
     </button>
   );
 };
 
+Button.defaultProps = {
+  wide: false,
+  color: 'orange',
+};
+
 Button.propTypes = {
   name: PropTypes.string.isRequired,
+  wide: PropTypes.bool,
+  color: PropTypes.string,
+  /* clickHandler: PropTypes.func.isRequired, */
 };
 
 export default Button;
