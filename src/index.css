@@ -21,6 +21,7 @@ footer small {
 
 footer a {
   color: gray;
+  padding-left: 0.7em;
 }
 
 footer a:hover {
