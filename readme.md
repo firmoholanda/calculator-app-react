@@ -31,7 +31,7 @@ this project can be found in https://github.com/firmoholanda/calculator-app-reac
 ### ✨ [live version](https://calculator-react-firmoholanda.herokuapp.com/)
 
 <a href="https://calculator-react-firmoholanda.herokuapp.com/" target="_blank">
-    <img alt="app image" src=""/>
+    <img alt="app image" src="https://github.com/firmoholanda/calculator-app-react/blob/release/src/assets/screenshot.png"/>
 </a>
 
 
