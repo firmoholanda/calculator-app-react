@@ -1,4 +1,4 @@
-# 📃 platform-game-js-webpack-phaser
+# 📃 calculator-app-react
 
 this is a simple game, made using phaser framework.
 the objective of this game is to collect the diamond on the scene while trying to avoid the spikes.
@@ -9,40 +9,43 @@ the game is over if you run out of lives or collect all the diamonds. have fun!
 
 ## 📡 technologies used
 
-- babel
-- eslint
-- jest
-- phaser
+- node.js
+-	react
+-	react-dom
+-	react-create-app
+-	npm
+-	css
+-	es6
 - webpack
 - git
 
-babel, eslint, jest, phaser, webpack and git was used on this project.
+node.js, react, react-dom, react-create-app, npm, css, es6, webpack and git was used on this project.
 
 
 
 ## 🚀 the project
 
-this project can be found in https://github.com/firmoholanda/platform-game-js-webpack-phaser
+this project can be found in https://github.com/firmoholanda/calculator-app-react
 
 
-### ✨ [live version](https://platform-game-firmoholanda.netlify.app/)
+### ✨ [live version](https://calculator-react-firmoholanda.herokuapp.com/)
 
-<a href="https://platform-game-firmoholanda.netlify.app/" target="_blank">
-    <img alt="app image" src="https://github.com/firmoholanda/platform-game-js-webpack-phaser/blob/release/assets/images/animation.gif"/>
+<a href="https://calculator-react-firmoholanda.herokuapp.com/" target="_blank">
+    <img alt="app image" src=""/>
 </a>
 
 
 
-## 🔨 instructions and how to play
+## 🔨 instructions
 
 to get started with the app, clone the repo:
 ```
-$ git@github.com:firmoholanda/platform-game-js-webpack-phaser.git
+$ git@github.com:firmoholanda/calculator-app-react.git
 ```
 
 navigate into the newly created folder:
 ```
-$ cd platform-game-js-webpack-phaser
+$ cd calculator-app-react
 ```
 
 install the dependencies:
@@ -63,26 +66,41 @@ $ http://localhost:8000/
 run tests:
 ```
 $ npm test
+
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 ```
 
-
-### how to play:
-
-#### the character:
-to move around the map with the character you use the arrow keys on your keyboard. each arrow key moves the character in the respective direction. you can use the spacebar to jump.
-
-#### the spikes:
-there are several spikes throughout the map, avoid touching them. if you touch one, you will lose one life. you have 3 lives at the start of the game.
-
-#### the diamond:
-diamonds are the objective of the game, you have to capture each diamond in the current map to advance to the next one. each diamond gives you 3 points. there are a total of 3 diamonds on the game. one for each map.
 
 
 ## 🤝 contributing
 
-contributions, issues, and feature requests are welcome!<br/>feel free to check [issues page](hhttps://github.com/firmoholanda/platform-game-js-webpack-phaser/development/issues).
+contributions, issues, and feature requests are welcome!<br/>feel free to check [issues page](hhttps://github.com/firmoholanda/calculator-app-react/development/issues).
 
-1. fork it (https://github.com/firmoholanda/platform-game-js-webpack-phaser/development/fork)
+1. fork it (https://github.com/firmoholanda/calculator-app-react/development/fork)
 2. create your working branch (git checkout -b [choose-a-name])
 3. commit your changes (git commit -am 'what this commit will fix/add/improve')
 4. push to the branch (git push origin [chosen-name])
@@ -96,9 +114,6 @@ contributions, issues, and feature requests are welcome!<br/>feel free to check 
 firmo holanda - [GitHub](https://github.com/firmoholanda)
 
 
-all sounds, images, backgrounds, buttons and the background music can be found on [OpenGameArt](https://opengameart.org/)
-
-
 
 ## 🙋‍♂ show your support
 
@@ -108,4 +123,4 @@ give a ⭐️ if you like this project!
 
 ## 📝 license
 
-this project is [MIT](https://github.com/firmoholanda/platform-game-js-webpack-phaser/development/license.txt) licensed.
+this project is [MIT](https://github.com/firmoholanda/calculator-app-react/development/license.txt) licensed.
