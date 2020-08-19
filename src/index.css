@@ -10,6 +10,50 @@ img {
   object-fit: cover;
 }
 
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: 50px auto;
+}
+
+.display {
+  background-color: gray;
+  height: 100px;
+  color: white;
+  font-size: 65px;
+  opacity: 0.9;
+  text-align: right;
+  padding-right: 4.3rem;
+  width: 700px;
+  margin: auto;
+  box-shadow: 10px 20px 5px -5px rgba(0, 0, 0, 0.15);
+}
+
+.button-panel {
+  opacity: 0.9;
+  width: 700px;
+  margin: auto;
+  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.15);
+}
+
+.row {
+  height: 100px;
+  margin: auto;
+}
+
+button {
+  border: 1px solid gray;
+  color: black;
+  font-size: 30px;
+  height: 100%;
+  width: auto;
+}
+
+button:hover {
+  filter: brightness(90%);
+}
+
 /* footer */
 footer {
   padding: 20px;
