@@ -4,11 +4,10 @@ import PropTypes from 'prop-types';
 import Button from './Button';
 
 const ButtonPanel = ({ clickHandler }) => {
-
-  const handleClick = (buttonName) => {
+  const handleClick = buttonName => {
     clickHandler(buttonName);
   };
-  
+
   return (
     <div className="button-panel">
       <div className="row group-one">
