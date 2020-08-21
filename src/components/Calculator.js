@@ -4,17 +4,15 @@ import ButtonPanel from './ButtonPanel';
 import Calculate from '../logic/calculate';
 
 function Calculator() {
-
   const [state, setState] = useState({
     total: null,
     next: null,
     operation: null,
   });
 
-  const handleClick = (buttonName) => {
+  const handleClick = buttonName => {
     setState(Calculate(state, buttonName));
   };
-
 
   return (
     <div className="calculator">
