@@ -7,15 +7,14 @@ const Button = ({
   const handleClick = () => {
     clickHandler(name);
   };
+  
   const style = {
     width: wide ? '50%' : '25%',
     backgroundColor: color,
   };
 
   return (
-    <button type="button" style={style} onClick={handleClick}>
-      {name}
-    </button>
+    <button type="button" style={style} onClick={handleClick}> {name} </button>
   );
 };
 
