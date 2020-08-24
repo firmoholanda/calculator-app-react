@@ -12,11 +12,10 @@ const calculate = (calculator, buttonName) => {
     case '+/-':
       if (next) next = `${next * -1}`;
       else if (total) total = `${total * -1}`;
-
       break;
     case '+':
     case '-':
-    case '×':
+    case 'X':
     case '÷':
     case '%':
       if (!total) break;
