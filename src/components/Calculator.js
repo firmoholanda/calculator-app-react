@@ -17,7 +17,7 @@ function Calculator() {
 
   return (
     <div className="calculator">
-      <Display result={state.next || state.total || "0"} />
+      <Display result={state.next || state.total || '0'} />
       <ButtonPanel clickHandler={handleClick} />
     </div>
   );
