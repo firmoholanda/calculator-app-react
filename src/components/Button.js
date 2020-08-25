@@ -11,9 +11,9 @@ const Button = ({
     width: wide ? '50%' : '25%',
     backgroundColor: color,
   };
-  
+
   return (
-    <button type="button" style={style}>
+    <button type="button" style={style} onClick={handleClick}>
       {name}
     </button>
   );
@@ -28,7 +28,7 @@ Button.propTypes = {
   name: PropTypes.string.isRequired,
   wide: PropTypes.bool,
   color: PropTypes.string,
-  /* clickHandler: PropTypes.func.isRequired, */
+  clickHandler: PropTypes.func.isRequired,
 };
 
 export default Button;

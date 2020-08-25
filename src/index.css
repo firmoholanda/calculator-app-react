@@ -24,11 +24,17 @@ img {
   font-size: 65px;
   opacity: 0.9;
   text-align: right;
-  padding-right: 3rem;
+  padding-right: 4.3rem;
+  width: 700px;
+  margin: auto;
+  box-shadow: 10px 20px 5px -5px rgba(0, 0, 0, 0.15);
 }
 
 .button-panel {
   opacity: 0.9;
+  width: 700px;
+  margin: auto;
+  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.15);
 }
 
 .row {
