@@ -1,21 +1,18 @@
 # 📃 calculator-app-react
 
-this is a simple game, made using phaser framework.
-the objective of this game is to collect the diamond on the scene while trying to avoid the spikes.
-you start with 3 lives and if you hit the spikes, you lose one. each diamond gives you 3 scores. so, try to collect all of them.
-the game is over if you run out of lives or collect all the diamonds. have fun!
+this is a calculator app, created with react
 
 
 
 ## 📡 technologies used
 
 - node.js
--	react
--	react-dom
--	react-create-app
--	npm
--	css
--	es6
+- react
+- react-dom
+- react-create-app
+- npm
+- css
+- es6
 - webpack
 - git
 
