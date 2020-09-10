@@ -1,6 +1,6 @@
 # 📃 calculator-app-react
 
-this is a calculator app, created with react
+A calculator app, created with React
 
 
 
